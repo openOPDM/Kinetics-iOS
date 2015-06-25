@@ -1,4 +1,4 @@
-This directory contains mobile projects for Kinetics POC project.
+This directory contains iOS client application for Kinetics POC project.
 
 ******* BUILD HOW-TO *******
 
