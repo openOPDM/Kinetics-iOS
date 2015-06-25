@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="11G63b" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="ExtensionData" representedClassName="ExtensionData" syncable="YES">
+        <attribute name="extensionID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="extensionKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="extensionType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="extensionValue" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ExtensionMetadata" representedClassName="ExtensionMetadata" syncable="YES">
+        <attribute name="customer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="entityname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="extensionID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="extensionList" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="extensionName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="extensionProperties" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="extensionType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PatientData" representedClassName="PatientData" syncable="YES">
+        <attribute name="birthday" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="creationDate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patientID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="secondName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="testState" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TestData" representedClassName="TestData" syncable="YES">
+        <attribute name="creationDate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="extension" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isSynchronised" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isValid" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rawData" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="testID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="testState" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ExtensionData" positionX="0" positionY="279" width="128" height="105"/>
+        <element name="ExtensionMetadata" positionX="-191" positionY="189" width="128" height="150"/>
+        <element name="PatientData" positionX="171" positionY="195" width="128" height="210"/>
+        <element name="TestData" positionX="-180" positionY="387" width="128" height="210"/>
+    </elements>
+</model>

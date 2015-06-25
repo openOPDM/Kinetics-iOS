@@ -1,0 +1,1 @@
+This directory contains mobile projects for Kinetics POC project.

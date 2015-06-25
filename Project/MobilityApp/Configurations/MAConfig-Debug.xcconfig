@@ -1,0 +1,25 @@
+//
+//  MAConfig-Debug.xcconfig
+//  MobilityApp
+//
+//  Created by Vitaly Yurchenko on 4/29/14.
+//  Copyright (c) 2014 Kinetics Foundation. All rights reserved.
+//
+
+#include "MAConfig-Common.xcconfig"
+
+// Architectures.
+ONLY_ACTIVE_ARCH = YES
+
+// Code Signing.
+CODE_SIGN_IDENTITY = iPhone Developer
+
+// Deployment.
+COPY_PHASE_STRIP = NO
+
+// Compiler - Code Generation.
+GCC_OPTIMIZATION_LEVEL = 0
+GCC_SYMBOLS_PRIVATE_EXTERN = NO
+
+// Compiler - Preprocessing.
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) DEBUG=1

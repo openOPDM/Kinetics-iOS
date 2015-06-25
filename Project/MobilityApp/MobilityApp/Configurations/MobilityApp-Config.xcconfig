@@ -1,0 +1,26 @@
+//
+//  MobilityApp-Config.xcconfig
+//  MobilityApp
+//
+//  Created by Vitaly Yurchenko on 4/29/14.
+//  Copyright (c) 2014 Kinetics Foundation. All rights reserved.
+//
+
+// Code Signing.
+CODE_SIGN_ENTITLEMENTS =
+
+// Linking.
+OTHER_LDFLAGS = -ObjC
+
+// Packaging.
+INFOPLIST_FILE = MobilityApp/MobilityApp-Info.plist
+PRODUCT_NAME = OPDM Mobility
+WRAPPER_EXTENSION = app
+
+// Compiler - Language.
+GCC_PRECOMPILE_PREFIX_HEADER = YES
+GCC_PREFIX_HEADER = MobilityApp/MobilityApp-Prefix.pch
+
+// Asset Catalog Compiler - Options.
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
+ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage

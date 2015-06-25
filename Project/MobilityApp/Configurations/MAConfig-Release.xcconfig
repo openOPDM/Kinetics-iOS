@@ -1,0 +1,18 @@
+//
+//  MAConfig-Release.xcconfig
+//  MobilityApp
+//
+//  Created by Vitaly Yurchenko on 4/29/14.
+//  Copyright (c) 2014 Kinetics Foundation. All rights reserved.
+//
+
+#include "MAConfig-Common.xcconfig"
+
+// Build Options.
+VALIDATE_PRODUCT = YES
+
+// Code Signing.
+CODE_SIGN_IDENTITY = iPhone Distribution
+
+// Compiler - Preprocessing.
+ENABLE_NS_ASSERTIONS = NO

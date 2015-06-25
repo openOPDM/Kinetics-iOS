@@ -1,0 +1,9 @@
+[submodule "Project/MobilityApp/Submodules/AFNetworking"]
+	path = Project/MobilityApp/Submodules/AFNetworking
+	url = https://github.com/AFNetworking/AFNetworking.git
+[submodule "Project/MobilityApp/Submodules/M13Checkbox"]
+	path = Project/MobilityApp/Submodules/M13Checkbox
+	url = https://github.com/Marxon13/M13Checkbox.git
+[submodule "Project/MobilityApp/Submodules/TTTAttributedLabel"]
+	path = Project/MobilityApp/Submodules/TTTAttributedLabel
+	url = https://github.com/mattt/TTTAttributedLabel.git
